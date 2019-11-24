@@ -1,0 +1,31 @@
+.mainPage-container {
+    width: 100%;
+}
+
+.mainPage-buttonsContainer {
+    width: 70%;
+    height: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+    word-break: break-all;
+}
+
+.mainPage-textContainer {
+    margin-bottom: 50px;
+}
+
+.mainButton {
+    width: 30%;
+    background-color: cadetblue;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .mainPage-buttonsContainer {height: 100px;}
+}

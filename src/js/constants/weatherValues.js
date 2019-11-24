@@ -1,0 +1,1 @@
+export const weatherValues = [ '°F', 'Pa', '%', '°F', '°F'];

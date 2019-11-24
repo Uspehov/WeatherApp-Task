@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details  Page should render 1`] = `
+"<div>
+  <div>
+    <div className=\\"detailsPage-container Moscow\\">
+      <WeatherData data={{...}} cityName=\\"Moscow\\" isLoading={false} />
+    </div>
+  </div>
+</div>"
+`;

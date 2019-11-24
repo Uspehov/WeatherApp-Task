@@ -1,0 +1,25 @@
+.weatherData-container {
+    font-size: 25px; 
+}
+
+.weatherData-subtitle {
+    margin: 15px;
+}
+
+.weatherData-columnContainer {
+    margin: auto;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.weatherData-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 750px) {
+    .weatherData-columnContainer {width: 65%;}
+}

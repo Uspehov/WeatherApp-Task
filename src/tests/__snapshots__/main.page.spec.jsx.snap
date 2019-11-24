@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Page should render 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <MainPage>
+      <div className=\\"mainPage-container\\">
+        <div className=\\"mainPage-textContainer\\">
+          <h1>
+            Welcome
+          </h1>
+          <span>
+            Here you can check actual weather for following cities.
+          </span>
+        </div>
+        <div className=\\"mainPage-buttonsContainer\\">
+          <Link to=\\"/Moscow\\" className=\\"mainButton\\">
+            <LinkAnchor className=\\"mainButton\\" href=\\"/Moscow\\" navigate={[Function: navigate]}>
+              <a className=\\"mainButton\\" href=\\"/Moscow\\" onClick={[Function: onClick]}>
+                Moscow
+              </a>
+            </LinkAnchor>
+          </Link>
+          <Link to=\\"/Saint Petersburg\\" className=\\"mainButton\\">
+            <LinkAnchor className=\\"mainButton\\" href=\\"/Saint Petersburg\\" navigate={[Function: navigate]}>
+              <a className=\\"mainButton\\" href=\\"/Saint Petersburg\\" onClick={[Function: onClick]}>
+                Saint Petersburg
+              </a>
+            </LinkAnchor>
+          </Link>
+          <Link to=\\"/Rostov-on-Don\\" className=\\"mainButton\\">
+            <LinkAnchor className=\\"mainButton\\" href=\\"/Rostov-on-Don\\" navigate={[Function: navigate]}>
+              <a className=\\"mainButton\\" href=\\"/Rostov-on-Don\\" onClick={[Function: onClick]}>
+                Rostov-on-Don
+              </a>
+            </LinkAnchor>
+          </Link>
+        </div>
+      </div>
+    </MainPage>
+  </Router>
+</BrowserRouter>"
+`;

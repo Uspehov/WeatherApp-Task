@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Data Page should render 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <WeatherData cityName=\\"Moscow\\" data={{...}}>
+      <div className=\\"weatherData-container\\">
+        <h1>
+          Moscow
+        </h1>
+        <div>
+          <h3 className=\\"weatherData-subtitle\\">
+            clear
+          </h3>
+          <span>
+            good day
+          </span>
+          <div className=\\"weatherData-columnContainer\\">
+            <div className=\\"weatherData-column\\">
+              <div>
+                Humidity
+              </div>
+              <div>
+                Pressure
+              </div>
+              <div>
+                Temp
+              </div>
+              <div>
+                Temp-max
+              </div>
+              <div>
+                Temp-min
+              </div>
+            </div>
+            <div className=\\"weatherData-column\\">
+              <div>
+                79
+                 
+                °F
+              </div>
+              <div>
+                1030
+                 
+                Pa
+              </div>
+              <div>
+                268.03
+                 
+                %
+              </div>
+              <div>
+                269.26
+                 
+                °F
+              </div>
+              <div>
+                267.04
+                 
+                °F
+              </div>
+               
+            </div>
+          </div>
+          <h3 className=\\"weatherData-subtitle\\">
+            Wind
+          </h3>
+          <div className=\\"weatherData-columnContainer\\">
+            <div className=\\"weatherData-column\\">
+              Speed
+            </div>
+            <div className=\\"weatherData-column\\">
+              2
+               m/s
+            </div>
+          </div>
+        </div>
+        <BackToMainButton>
+          <Link replace={true} to=\\"/\\" className=\\"backToMain-button mainButton\\">
+            <LinkAnchor className=\\"backToMain-button mainButton\\" href=\\"/\\" navigate={[Function: navigate]}>
+              <a className=\\"backToMain-button mainButton\\" href=\\"/\\" onClick={[Function: onClick]}>
+                Go Back
+              </a>
+            </LinkAnchor>
+          </Link>
+        </BackToMainButton>
+      </div>
+    </WeatherData>
+  </Router>
+</BrowserRouter>"
+`;
