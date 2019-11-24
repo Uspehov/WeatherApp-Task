@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "npm run build",
-    "build": "webpack -p && webpack-dev-server"
+    "build": "webpack -p && webpack-dev-server --open"
   },
   "eslintConfig": {
     "extends": "react-app"

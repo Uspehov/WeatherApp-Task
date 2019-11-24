@@ -32,7 +32,7 @@ module.exports = {
   },
   plugins: [ 
     new ExtractTextPlugin(
-      {filename: 'App.css'}
+      {filename: 'index.css'}
     ),
     new HtmlWebpackPlugin({
       inject: false,
